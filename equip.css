@@ -1,0 +1,158 @@
+div#inventory_bg {
+	position: absolute;
+	background: url(img/Equip/backgrnd.png);
+	width: 225px;
+	height: 307px;
+	margin: 0px;
+	padding-left: 7px;
+	padding-top: 23px;
+	left: 292px;
+	top: 16px;
+}
+
+div#inventory_tabs {
+	width: 214px;
+	height: 18px;
+	margin-left: 2px;
+}
+
+div#inventory_tab1 {
+	float: left;
+	background: url(img/Equip/Tab/disabled.0.png);
+	width: 42px;
+	height: 18px;
+}
+
+div#inventory_tab2 {
+	float: left;
+	background: url(img/Equip/Tab/disabled.1.png);
+	width: 42px;
+	height: 18px;
+	margin-left: 1px;
+}
+
+div#inventory_tab3 {
+	float: left;
+	background: url(img/Equip/Tab/disabled.2.png);
+	width: 42px;
+	height: 18px;
+	margin-left: 1px;
+}
+
+div#inventory_tab4 {
+	float: left;
+	background: url(img/Equip/Tab/disabled.3.png);
+	width: 42px;
+	height: 18px;
+	margin-left: 1px;
+}
+
+div#inventory_tab5 {
+	float: left;
+	background: url(img/Equip/Tab/disabled.x.png);
+	width: 42px;
+	height: 18px;
+	margin-left: 1px;
+}
+
+div#inventory_tabbar {
+	background: url(img/Equip/Tab/tabbar.png);
+	width: 218px;
+	height: 3px;
+}
+
+div#inventory_bg2 {
+	background: url(img/Equip/backgrnd2.png);
+	width: 209px;
+	height: 252px;
+	margin-left: 2px;
+	padding-top: 4px;
+	padding-left: 5px;
+}
+
+div#inventory_bg3 {
+	position: absolute;
+	background: url(img/Equip/backgrnd_char.png);
+	width: 128px;
+	height: 209px;
+	margin-left: 46px;
+	margin-top: 25px;
+}
+
+div#slot {
+	float: left;
+	width: 40px;
+	height: 39px;
+	margin-top: 2px;
+	margin-left: 1px;
+}
+
+div.slot1 {background: url(img/Equip/slots/Slots.12.png);}
+div.slot2 {        }
+div.slot3 {background: url(img/Equip/slots/Slots.1.png);}
+div.slot4 {        }
+div.slot5 {background: url(img/Equip/slots/Slots.30.png);}
+div.slot6 {background: url(img/Equip/slots/Slots.13.png);}
+div.slot7 {background: url(img/Equip/slots/Slots.31.png);}
+div.slot8 {background: url(img/Equip/slots/Slots.2.png);}
+div.slot9 {        }
+div.slot10 {background: url(img/Equip/slots/Slots.29.png);}
+div.slot11 {background: url(img/Equip/slots/Slots.15.png);}
+div.slot12 {background: url(img/Equip/slots/Slots.17.png);}
+div.slot13 {background: url(img/Equip/slots/Slots.3.png);}
+div.slot14 {background: url(img/Equip/slots/Slots.4.png);}
+div.slot15 {background: url(img/Equip/slots/Slots.21.png);}
+div.slot16 {background: url(img/Equip/slots/Slots.16.png);}
+div.slot17 {background: url(img/Equip/slots/Slots.11.png);}
+div.slot18 {background: url(img/Equip/slots/Slots.5.png);}
+div.slot19 {background: url(img/Equip/slots/Slots.23.png);}
+div.slot20 {background: url(img/Equip/slots/Slots.10.png);}
+div.slot21 {background: url(img/Equip/slots/Slots.26.png);}
+div.slot22 {background: url(img/Equip/slots/Slots.22.png);}
+div.slot23 {background: url(img/Equip/slots/Slots.6.png);}
+div.slot24 {background: url(img/Equip/slots/Slots.8.png);}
+div.slot25 {background: url(img/Equip/slots/Slots.9.png);}
+div.slot26 {        }
+div.slot27 {        }
+div.slot28 {background: url(img/Equip/slots/Slots.7.png);}
+div.slot29 {background: url(img/Equip/slots/Slots.27.png);}
+div.slot30 {background: url(img/Equip/slots/Slots.28.png);}
+
+div#inslot {
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	margin-left: 1px;
+}
+//jjjj
+.rare {
+	border: 1px solid rgb(85, 170, 255);
+}
+
+.epic {
+	border: 1px solid rgb(204, 102, 255);
+}
+
+.uniq {
+	border: 1px solid rgb(255, 204, 0);
+}
+
+.legendary {
+	border: 1px solid rgb(0, 255, 0);
+}
+
+.special {
+	border: 1px solid rgb(204, 136, 136);
+}
+
+.none {
+	border: 0px solid rgb(0, 0, 0);
+}
+
+.red {
+	-webkit-filter: drop-shadow(0 0px 4px rgba(255, 5, 64));
+	-moz-filter: drop-shadow(0 0px 4px rgba(255, 5, 64));
+	-ms-filter: drop-shadow(0 0px 4px rgba(255, 5, 64));
+	-o-filter: drop-shadow(0 0px 4px rgba(255, 5, 64));
+	filter: drop-shadow(0 0px 4px rgba(255, 5, 64));
+}
