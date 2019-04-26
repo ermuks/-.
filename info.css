@@ -1,0 +1,595 @@
+div#itembackground {
+	height: 0px;
+}
+div#itembacktopleft {
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 2px;
+	background: url(img/Item/Frame/cover.png);
+	width: 53px;
+	height: 43px;
+}
+div#itembacktop {
+	background: url(img/Item/Frame/top.png);
+	width: 261px;
+	height: 13px;
+}
+div#itembackbottom {
+	background: url(img/Item/Frame/bottom.png);
+	width: 261px;
+	height: 13px;
+}
+
+div#iconlayout {
+	float: left;
+	width: 82px;
+	height: 82px;
+	margin-left: 7px;
+}
+
+div#itemicon {
+	width: 82px;
+	height: 82px;
+	background: url(img/Item/ItemIcon/base.png);
+}
+div#itemclassb {
+    float: left;
+    margin-left: 1px;
+    margin-top: 1px;
+    background: url(img/Item/ItemIcon/4.png);
+    width: 90px;
+    height: 80px;
+}
+div#itemnormalinfo, div.iteminfo, div#potential, div#itemoption, div#itemsoul, div#itemdefault {
+	background: url(img/Item/Frame/line.png);
+	width: 261px;
+}
+div#itemnormalinfo, div.iteminfo, div#itemoption {
+	min-height: 40px;
+}
+div#potential {
+	font-size: 8.6pt;
+	color: white;
+	padding-top:4px;
+	padding-left:7px;
+	padding-bottom:2px;
+}
+div#potendata {
+	margin-top: 1px;
+	margin-left: 4px;
+}
+.iteminfo.s {
+	height:150px;
+	padding-top: 8px;
+}
+.iteminfo.n {
+	height:134px;
+	padding-top: 8px;
+}
+
+div#starforce {
+	margin-top:0px;
+	margin-bottom: 8px;
+}
+
+div#star {
+	float: left;
+	background: url('img/Item/Star/Star0.png');
+	width: 11px;
+	height: 10px;
+	margin-left: -1px;
+}
+
+div#stary {
+	float: left;
+	background: url('img/Item/Star/Star.png');
+	width: 11px;
+	height: 10px;
+	margin-left: -1px;
+}
+
+div#starb {
+	float: left;
+	background: url('img/Item/Star/Star1.png');
+	width: 11px;
+	height: 10px;
+	margin-left: -1px;
+}
+
+div#starblank {
+	float: left;
+	width: 5px;
+	height: 10px;
+}
+
+div#star1 {
+	height: 10px;
+}
+div#star2 {
+	padding-top: 8px;
+	height: 10px;
+}
+
+div#star1.s15, div#star1.s20, div#star1.s25 {
+	margin-left: 49px;
+	width: 163px;
+}
+div#star1.s10 {
+	margin-left: 78px;
+	width: 163px;
+}
+div#star1.s8 {
+	margin-left: 89px;
+	width: 163px;
+}
+div#star1.s5 {
+	margin-left: 108px;
+	width: 163px;
+}
+
+div#star2.s20 {
+	margin-left: 108px;
+	width: 107px;
+}
+div#star2.s25 {
+	margin-left: 78px;
+	width: 107px;
+}
+
+div#itemsoulname{
+	font-size: 10.5pt;
+	width: 261px;
+	text-align: center;
+	margin-bottom: 3px;
+	font-weight: bold;
+	color: rgb(192,255,64);
+}
+div#itemname{
+	font-size: 10.5pt;
+	width: 261px;
+	text-align: center;
+	font-weight: bold;
+	color: rgb(255,255,255);
+}
+div#itemclass{
+	margin-top: 6px;
+	width: 261px;
+	text-align: center;
+	font-size: 8.6pt;
+	color: rgb(255,255,255);
+}
+div#itemtrade{
+	margin-top: 1px;
+	width: 261px;
+	text-align: center;
+	font-size: 8.6pt;
+	color: rgb(255,192,128);
+	padding-bottom: 11px;
+}
+
+div#itemname.normal{
+	color: rgb(255,255,255);
+}
+div#itemname.lv0{
+	color: rgb(192,192,192);
+}
+div#itemname.lv1{
+	color: rgb(255,128,64);
+}
+div#itemname.lv2{
+	color: rgb(64,192,255);
+}
+div#itemname.lv3{
+	color: rgb(128,0,192);
+}
+div#itemname.lv4{
+	color: rgb(255,255,0);
+}
+div#itemname.lv5{
+	color: rgb(192,255,64);
+}
+div#itemname.lv6{
+	color: rgb(255,0,64);
+}
+div#dotline {
+	background: url(img/Item/Frame/dotline.png);
+	width: 261px;
+	height: 2px;
+}
+
+div#addpower {
+	float: left;
+	width: 166px;
+	margin-right: 3px;
+	padding-top: 3px;
+}
+
+div#itemaddpowertext {
+	float: left;
+	width: 160px;
+	font-size: 8.6pt;
+	color: rgb(153,153,153);
+	text-align: right;
+	margin-right: 12px;
+}
+div#addp {
+	float: right;
+	background: url(img/Item/Summary/incline/plus.png);
+	width: 18px;
+	height: 18px;
+	margin-top: 4px;
+	margin-right: 1px;
+}
+div#add0 {
+	float: right;
+	background: url(img/Item/Summary/incline/0.png);
+	width: 19px;
+	height: 26px;
+	margin-right: 1px;
+}
+div#add1 {
+	float: right;
+	background: url(img/Item/Summary/incline/1.png);
+	width: 14px;
+	height: 26px;
+	margin-right: 1px;
+}
+div#add2 {
+	float: right;
+	background: url(img/Item/Summary/incline/2.png);
+	width: 18px;
+	height: 26px;
+	margin-right: 1px;
+}
+div#add3 {
+	float: right;
+	background: url(img/Item/Summary/incline/3.png);
+	width: 17px;
+	height: 26px;
+	margin-right: 1px;
+}
+div#add4 {
+	float: right;
+	background: url(img/Item/Summary/incline/4.png);
+	width: 20px;
+	height: 26px;
+	margin-right: 1px;
+}
+div#add5 {
+	float: right;
+	background: url(img/Item/Summary/incline/5.png);
+	width: 17px;
+	height: 26px;
+	margin-right: 1px;
+}
+div#add6 {
+	float: right;
+	background: url(img/Item/Summary/incline/6.png);
+	width: 18px;
+	height: 26px;
+	margin-right: 1px;
+}
+div#add7 {
+	float: right;
+	background: url(img/Item/Summary/incline/7.png);
+	width: 18px;
+	height: 26px;
+	margin-right: 1px;
+}
+div#add8 {
+	float: right;
+	background: url(img/Item/Summary/incline/8.png);
+	width: 19px;
+	height: 26px;
+	margin-right: 1px;
+}
+div#add9 {
+	float: right;
+	background: url(img/Item/Summary/incline/9.png);
+	width: 19px;
+	height: 26px;
+	margin-right: 1px;
+}
+
+div#reqlevel {
+	float: left;
+	padding-top: 7px;
+	width: 172px;
+}
+
+div#reqlevelimg {
+    background: url(img/Item/Equip/Can/reqLEV.png) no-repeat;
+    width: 40px;
+    height: 6px;
+    margin-left: 5px;
+    padding-left: 53px;
+}
+img{
+	image-rendering: pixelated;
+}
+
+div#potenlevel {
+	float: left;
+	margin-right: 5px;
+	width:236px;
+	height:13px;
+	padding-left:16px;
+	padding-bottom:2px
+}
+
+div#potenlevel.r { background: url('img/Item/Potential/1.png') no-repeat; color:rgb(102,255,255); }
+div#potenlevel.e { background: url('img/Item/Potential/2.png') no-repeat; color:rgb(153,102,255); }
+div#potenlevel.u { background: url('img/Item/Potential/3.png') no-repeat; color:rgb(255,204,0); }
+div#potenlevel.l { background: url('img/Item/Potential/4.png') no-repeat; color:rgb(204,255,0); }
+div#potenlevel.g { background: url('img/Item/Potential/5.png') no-repeat; color:rgb(224,224,224); }
+
+div#itemoption {
+	padding: 6px 0px;
+}
+div#itemoptiondetail {
+	font-size: 8.6pt;
+	margin-left: 10px;
+	color: white;
+}
+div#reqstats {
+	float: left;
+	padding-top: 7px;
+	width: 172px;
+}
+div#reqStat {
+	float: left;
+	width: 21px;
+	height: 6px;
+	padding-left: 54px;
+	margin-left: 5px;
+	margin-bottom: 2px;
+}
+div#reqStat.STR.e { background: url(img/Item/Equip/Can/reqSTR.png) no-repeat; }
+div#reqStat.DEX.e { background: url(img/Item/Equip/Can/reqDEX.png) no-repeat; }
+div#reqStat.INT.e { background: url(img/Item/Equip/Can/reqINT.png) no-repeat; }
+div#reqStat.LUK.e { background: url(img/Item/Equip/Can/reqLUK.png) no-repeat; }
+div#reqStat.STR.d { background: url(img/Item/Equip/Disabled/reqSTR.png) no-repeat; }
+div#reqStat.DEX.d { background: url(img/Item/Equip/Disabled/reqDEX.png) no-repeat; }
+div#reqStat.INT.d { background: url(img/Item/Equip/Disabled/reqINT.png) no-repeat; }
+div#reqStat.LUK.d { background: url(img/Item/Equip/Disabled/reqLUK.png) no-repeat; }
+
+
+font#addop {
+	color: rgb(192,255,64);
+}
+font#upop {
+	color: rgb(128,255,255);
+}
+
+div#itemabil {
+	float: left;
+	margin-left: 13px;
+	margin-top: 4px;
+	width: 237px;
+	height: 16px;
+}
+div#itemjob {
+	float: left;
+	margin-left: 13px;
+	margin-top: 4px;
+}
+.n>.job>.jg {
+	background: url(img/Item/Job/normal.png);
+	width: 222px;
+	height: 17px;
+	padding-top: 7px;
+	padding-left: 15px;
+}
+.s>.job>.jg {
+	background: url(img/Item/Job/expand.png);
+	width: 222px;
+	height: 33px;
+	padding-top: 7px;
+	padding-left: 15px;
+}
+
+div#itemsoul {
+	padding-left: 11px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	width : 250px;
+}
+div#isoul {
+	padding-top: 1.4px;
+	font-size: 9pt;
+}
+div#isoul.name {
+	color: rgb(255, 255, 68);
+}
+div#isoul.charge {
+	color: rgb(255, 255, 255);
+}
+div#isoul.pasv {
+	color: rgb(255, 255, 255);
+}
+div#isoul.skill {
+	color: rgb(255, 136, 17);
+}
+
+div#itemdefault {
+	padding-left: 11px;
+	width: 250px;
+}
+div#dft {
+	font-size: 8.6pt;
+}
+div#dft.tip {
+	padding-top: 3px;
+	color: rgb(255, 136, 17);
+}
+div#dft.blank {
+	padding-top: 8px;
+}
+
+div#ijob {
+	float: left;
+	margin-right: 13.5px;
+}
+
+div#ijob.j00 {
+	background: url() no-repeat;
+	width: 31px;
+	height: 10px;
+}
+div#ijob.j02 {
+	background: url(img/Item/Job/disable/0.png) no-repeat;
+	width: 31px;
+	height: 10px;
+}
+div#ijob.j01 {
+	background: url(img/Item/Job/enable/0.png) no-repeat;
+	width: 31px;
+	height: 10px;
+}
+
+div#ijob.j10 {
+	background: url() no-repeat;
+	width: 20px;
+	height: 10px;
+}
+div#ijob.j12 {
+	background: url(img/Item/Job/disable/1.png) no-repeat;
+	width: 20px;
+	height: 10px;
+}
+div#ijob.j11 {
+	background: url(img/Item/Job/enable/1.png) no-repeat;
+	width: 20px;
+	height: 10px;
+}
+
+div#ijob.j20 {
+	background: url() no-repeat;
+	width: 31px;
+	height: 10px;
+}
+div#ijob.j22 {
+	background: url(img/Item/Job/disable/2.png) no-repeat;
+	width: 31px;
+	height: 10px;
+}
+div#ijob.j21 {
+	background: url(img/Item/Job/enable/2.png) no-repeat;
+	width: 31px;
+	height: 10px;
+}
+
+div#ijob.j30 {
+	background: url() no-repeat;
+	width: 20px;
+	height: 10px;
+    margin-left: -1px;
+}
+div#ijob.j32 {
+	background: url(img/Item/Job/disable/3.png) no-repeat;
+	width: 20px;
+	height: 10px;
+    margin-left: -1px;
+}
+div#ijob.j31 {
+	background: url(img/Item/Job/enable/3.png) no-repeat;
+	width: 20px;
+	height: 10px;
+    margin-left: -1px;
+}
+
+div#ijob.j40 {
+	background: url() no-repeat;
+	width: 20px;
+	height: 10px;
+    margin-left: 1px;
+}
+div#ijob.j42 {
+	background: url(img/Item/Job/disable/4.png) no-repeat;
+	width: 20px;
+	height: 10px;
+    margin-left: 1px;
+}
+div#ijob.j41 {
+	background: url(img/Item/Job/enable/4.png) no-repeat;
+	width: 20px;
+	height: 10px;
+    margin-left: 1px;
+}
+
+div#ijob.j50 {
+	background: url() no-repeat;
+	width: 20px;
+	height: 10px;
+    margin-left: -1px;
+}
+div#ijob.j52 {
+	background: url(img/Item/Job/disable/5.png) no-repeat;
+	width: 20px;
+	height: 10px;
+    margin-left: -1px;
+}
+div#ijob.j51 {
+	background: url(img/Item/Job/enable/5.png) no-repeat;
+	width: 20px;
+	height: 10px;
+    margin-left: -1px;
+}
+div#ijobspecial {
+    width: 208px;
+    font-size: 8.6pt;
+    color: rgb(255,192,0);
+    float: left;
+    margin-top: 4px;
+    text-align: center;
+}
+
+div#iabil {
+    float: left;
+    padding-left: 17px;
+    height: 17px;
+    width: 45px;
+}
+div#iabil.ag { background: url(img/Item/Summary/icon/pdd.png) no-repeat; }
+div#iabil.ba { background: url(img/Item/Summary/icon/bdr.png) no-repeat; }
+div#iabil.gb { background: url(img/Item/Summary/icon/igpddr.png) no-repeat; }
+
+div#reqnum {
+    float: left;
+    width: 5px;
+    height: 5px;
+    margin-right: 1px;
+	background:;
+}
+div#reqnum.y0 { background: url(img/Item/YellowNumber/0.png) no-repeat; }
+div#reqnum.y1 { background: url(img/Item/YellowNumber/1.png) no-repeat; width: 3px;}
+div#reqnum.y2 { background: url(img/Item/YellowNumber/2.png) no-repeat; }
+div#reqnum.y3 { background: url(img/Item/YellowNumber/3.png) no-repeat; }
+div#reqnum.y4 { background: url(img/Item/YellowNumber/4.png) no-repeat; }
+div#reqnum.y5 { background: url(img/Item/YellowNumber/5.png) no-repeat; }
+div#reqnum.y6 { background: url(img/Item/YellowNumber/6.png) no-repeat; }
+div#reqnum.y7 { background: url(img/Item/YellowNumber/7.png) no-repeat; }
+div#reqnum.y8 { background: url(img/Item/YellowNumber/8.png) no-repeat; }
+div#reqnum.y9 { background: url(img/Item/YellowNumber/9.png) no-repeat; }
+
+div#reqnum.e0 { background: url(img/Item/Equip/Can/0.png) no-repeat; }
+div#reqnum.e1 { background: url(img/Item/Equip/Can/1.png) no-repeat; width: 3px;}
+div#reqnum.e2 { background: url(img/Item/Equip/Can/2.png) no-repeat; }
+div#reqnum.e3 { background: url(img/Item/Equip/Can/3.png) no-repeat; }
+div#reqnum.e4 { background: url(img/Item/Equip/Can/4.png) no-repeat; }
+div#reqnum.e5 { background: url(img/Item/Equip/Can/5.png) no-repeat; }
+div#reqnum.e6 { background: url(img/Item/Equip/Can/6.png) no-repeat; }
+div#reqnum.e7 { background: url(img/Item/Equip/Can/7.png) no-repeat; }
+div#reqnum.e8 { background: url(img/Item/Equip/Can/8.png) no-repeat; }
+div#reqnum.e9 { background: url(img/Item/Equip/Can/9.png) no-repeat; }
+
+div#reqnum.d0 { background: url(img/Item/Equip/Disabled/0.png) no-repeat; }
+div#reqnum.d1 { background: url(img/Item/Equip/Disabled/1.png) no-repeat; width: 3px;}
+div#reqnum.d2 { background: url(img/Item/Equip/Disabled/2.png) no-repeat; }
+div#reqnum.d3 { background: url(img/Item/Equip/Disabled/3.png) no-repeat; }
+div#reqnum.d4 { background: url(img/Item/Equip/Disabled/4.png) no-repeat; }
+div#reqnum.d5 { background: url(img/Item/Equip/Disabled/5.png) no-repeat; }
+div#reqnum.d6 { background: url(img/Item/Equip/Disabled/6.png) no-repeat; }
+div#reqnum.d7 { background: url(img/Item/Equip/Disabled/7.png) no-repeat; }
+div#reqnum.d8 { background: url(img/Item/Equip/Disabled/8.png) no-repeat; }
+div#reqnum.d9 { background: url(img/Item/Equip/Disabled/9.png) no-repeat; }
