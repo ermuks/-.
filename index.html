@@ -1,0 +1,652 @@
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>메이플스토리 템세팅 시뮬레이션</title>
+	<style>div{ font-family: '돋움',Dotum; }</style>
+	<link rel="stylesheet" type="text/css" href="info.css"/>
+	<link rel="stylesheet" type="text/css" href="equip.css"/>
+	<script type="text/javascript" src="select.js"></script>
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body style="background: url('img/back.png') no-repeat; padding:0px; margin: 0px;">
+
+<div id="inventory_bg">
+	<div id="inventory_tabs">
+		<div id="inventory_tab1"></div>
+		<div id="inventory_tab2"></div>
+		<div id="inventory_tab3"></div>
+		<div id="inventory_tab4"></div>
+		<div id="inventory_tab5"></div>
+	</div>
+	<div id="inventory_tabbar"></div>
+	<div id="inventory_bg2">
+		<div id="inventory_bg3"></div>
+		<div id="slot" class="slot1">
+			<div id="inslot" class="legendary"></div>
+			<div id="inventory" class="red" style="background: url('img/itemlist/마이스터 링.png') no-repeat; width: 38px;height: 38px;margin-top: 4px;margin-left: 4px;"></div>
+		</div>
+		<div id="slot" class="slot2">
+			<!-- none -->
+		</div>
+		<div id="slot" class="slot3">
+			<div id="inslot" class="legendary"></div>
+			<div id="inventory" class="red" style="background: url('img/itemlist/아케인셰이드 메이지햇.png') no-repeat;width: 38px;height: 38px;margin-top: 6px;margin-left: 3px;"></div>
+		</div>
+		<div id="slot" class="slot4">
+			<!-- none -->
+		</div>
+		<div id="slot" class="slot5">
+			<div id="inslot" class="legendary"></div>
+			<div id="inventory" class="none" style="background: url('img/itemlist/골드 키네시스 엠블렘.png') no-repeat;width: 38px;height: 38px;margin-top: 5px;margin-left: 5px;"></div>
+		</div>
+		<div id="slot" class="slot6">
+			<div id="inslot" class="legendary"></div>
+			<div id="inventory" class="red" style="background: url('img/itemlist/SS급 쥬얼링.png') no-repeat;width: 38px;height: 38px;margin-top: 4px;margin-left: 6px;"
+			
+			iname="SS급 마스터 쥬얼링"
+			c_trade="교환 불가, 고유장착 아이템"
+			
+			nost = "1"
+			
+			rlev="120" rstr="0" rluk="0" rdex="0" rint="0"
+			j0="1" j1="1" j2="1" j3="1" j4="1" j5="1"
+			sp="0" sjt=""
+			
+			tw="0" t1="반지" t2=""
+			
+			s1="30,0,0" s2="30,0,0" s3="30,0,0" s4="30,0,0"
+			s5="3000,0,0" s6="3000,0,0" s7="0,0,0" s8="0,0,0"
+			s9="20,0,0" s10="20,0,0" s11="0,0,0" s12="0,0,0" s13="0,0,0"
+			s14="0,0,0" s15="0,0,0" s16="0,0,0" s17="0,0,0"
+			o1="0" o2="-1" o3="0" o4="0" o5="0" o6="0"
+			up="0"
+			
+			pt="l" p1="메소 획득량 : +20%" p2="INT : +9%" p3="INT : +9%"
+			et="e" e1="마력 : +11" e2="마력 : +10" e3="마력 : +10"
+			
+			st="" ss="" sa=""
+			
+			tip1="쥬얼 링류 아이템은 중복 착용이 불가능합니다."
+			tip2=""
+			tip3=""
+			tip4=""
+			tip5=""
+			tip6=""
+			onclick="iselect(this);"></div>
+		</div>
+		<div id="slot" class="slot7">
+			<div id="inslot" class="legendary"></div>
+			<div id="inventory" class="red" style="background: url('img/itemlist/고통의 근원.png') no-repeat;width: 38px;height: 38px;margin-top: 3px;margin-left: 1px;"
+			
+			iname="고통의 근원"
+			c_trade="교환 불가, 고유장착 아이템"
+			
+			nost = "0"
+			
+			rlev="160" rstr="0" rluk="0" rdex="0" rint="0"
+			j0="1" j1="1" j2="1" j3="1" j4="1" j5="1"
+			sp="0" sjt=""
+			
+			tw="0" t1="펜던트" t2=""
+			
+			s1="10,0,102" s2="10,52,99" s3="10,103,141" s4="10,27,136"
+			s5="0,0,0" s6="0,0,0" s7="5,0,0" s8="0,0,0"
+			s9="3,0,96" s10="3,0,128" s11="200,0,181" s12="0,0,0" s13="0,0,0"
+			s14="0,0,0" s15="0,0,0" s16="0,0,0" s17="0,6,0"
+			o1="0" o2="0" o3="0" o4="0" o5="22" o6="0"
+			up="6"
+			
+			pt="l" p1="INT : +12%" p2="INT : +12%" p3="INT : +9%"
+			et="l" e1="마력 : +14" e2="INT : +5%" e3="마력 : +12"
+			
+			st="" ss="" sa=""
+			
+			tip1="&nbsp;플래티넘 카르마의 가위를 사용하면 1회 교환이 가능하게 할 수 있습니다."
+			tip2=""
+			tip3=""
+			tip4=""
+			tip5=""
+			tip6=""
+			onclick="iselect(this);"></div>
+		</div>
+		<div id="slot" class="slot8">
+			<div id="inslot" class="legendary"></div>
+			<div id="inventory" class="red" style="background: url('img/itemlist/루즈 컨트롤 마크.png') no-repeat;width: 38px;height: 38px;margin-top: 5px;margin-left: 6px;"></div>
+		</div>
+		<div id="slot" class="slot9">
+			<!-- none -->
+		</div>
+		<div id="slot" class="slot10">
+			<div id="inslot" class="none"></div>
+			<div id="inventory" class="none" style="background: url('img/itemlist/칠요의 뱃지.png') no-repeat;width: 38px;height: 38px;margin-top: 5px;margin-left: 5px;"></div>
+		</div>
+		<div id="slot" class="slot11">
+			<div id="inslot" class="legendary"></div>
+			<div id="inventory" class="red" style="background: url('img/itemlist/실버블라썸링.png') no-repeat;width: 38px;height: 38px;margin-top: 4px;margin-left: 4px;"
+			
+			
+			iname="실버블라썸 링"
+			c_trade="교환 불가, 고유장착 아이템"
+			
+			nost = "0"
+			
+			rlev="123" rstr="0" rluk="0" rdex="0" rint="0"
+			j0="1" j1="1" j2="1" j3="1" j4="1" j5="1"
+			sp="1" sjt=""
+			
+			tw="0" t1="반지" t2=""
+			
+			s1="5,0,83" s2="5,0,82" s3="5,0,91" s4="5,0,82"
+			s5="0,0,255" s6="0,0,255" s7="0,0,0" s8="0,0,0"
+			s9="2,0,70" s10="2,0,78" s11="0,0,0" s12="0,0,0" s13="0,0,0"
+			s14="0,0,0" s15="0,0,0" s16="0,0,0" s17="0,0,0"
+			o1="0" o2="0" o3="0" o4="1" o5="10" o6="0"
+			up="3"
+			
+			pt="l" p1="메소 획득량 : +20%" p2="INT : +12%" p3="INT : +9%"
+			et="u" e1="캐릭터 기준 10레벨 당 INT : +2" e2="INT : +4%" e3="INT : +5%"
+			
+			st="" ss="" sa=""
+			
+			tip1=""
+			tip2=""
+			tip3=""
+			tip4=""
+			tip5=""
+			tip6=""
+			onclick="iselect(this);"></div>
+		</div>
+		<div id="slot" class="slot12">
+			<div id="inslot" class="legendary"></div>
+			<div id="inventory" class="red" style="background: url('img/itemlist/도미네이터 펜던트.png') no-repeat;width: 38px;height: 38px;margin-top: 5px;margin-left: 3px;"
+			
+			iname="도미네이터 펜던트"
+			c_trade="교환 불가, 고유장착 아이템"
+			
+			nost = "0"
+			
+			rlev="140" rstr="0" rluk="0" rdex="0" rint="0"
+			j0="1" j1="1" j2="1" j3="1" j4="1" j5="1"
+			sp="0" sjt=""
+			
+			tw="0" t1="펜던트" t2=""
+			
+			s1="20,0,76" s2="20,0,76" s3="20,104,76" s4="20,40,76"
+			s5="0,0,495" s6="0,0,240" s7="10,0,0" s8="10,0,0"
+			s9="3,0,35" s10="3,0,35" s11="100,0,484" s12="0,0,18" s13="0,0,12"
+			s14="0,0,0" s15="0,0,0" s16="0,0,0" s17="0,6,0"
+			o1="-20" o2="0" o3="10" o4="1" o5="17" o6="0"
+			up="6"
+			
+			pt="l" p1="메소 획득량 : +20%" p2="INT : +9%" p3="INT : +9%"
+			et="e" e1="마력 : +11" e2="마력 : +10" e3="마력 : +10"
+			
+			st="" ss="" sa=""
+			
+			tip1=""
+			tip2=""
+			tip3=""
+			tip4=""
+			tip5=""
+			tip6=""
+			onclick="iselect(this);"></div>
+		</div>
+		<div id="slot" class="slot13">
+			<div id="inslot" class="legendary"></div>
+			<div id="inventory" class="red" style="background: url('img/itemlist/마력이 깃든 안대.png') no-repeat;width: 38px;height: 38px;margin-top: 10px;margin-left: 5px;"></div>
+		</div>
+		<div id="slot" class="slot14">
+			<div id="inslot" class="legendary"></div>
+			<div id="inventory" class="red" style="background: url('img/itemlist/오션 글로우 이어링.png') no-repeat;width: 38px;height: 38px;margin-top: 6px;margin-left: 4px;"></div>
+		</div>
+		<div id="slot" class="slot15">
+			<div id="inslot" class="none"></div>
+			<div id="inventory" class="none" style="background: url('img/itemlist/칠요의 몬스터파커 훈장.png') no-repeat;width: 38px;height: 38px;margin-top: 3px;margin-left: 3px;"></div>
+		</div>
+		<div id="slot" class="slot16">
+			<div id="inslot" class="legendary"></div>
+			<div id="inventory" class="red" style="background: url('img/itemlist/고귀한 이피아의 반지.png') no-repeat;width: 38px;height: 38px;margin-top: 2px;margin-left: 3px;"
+			
+			
+			iname="고귀한 이피아의 반지"
+			c_trade="교환 불가, 고유장착 아이템"
+			
+			nost = "0"
+			
+			rlev="120" rstr="0" rluk="0" rdex="0" rint="0"
+			j0="1" j1="1" j2="1" j3="1" j4="1" j5="1"
+			sp="1" sjt=""
+			
+			tw="0" t1="반지" t2=""
+			
+			s1="5,0,83" s2="5,0,82" s3="5,0,91" s4="5,0,82"
+			s5="200,0,255" s6="200,0,255" s7="0,0,0" s8="0,0,0"
+			s9="2,0,70" s10="2,0,78" s11="0,0,0" s12="0,0,0" s13="0,0,0"
+			s14="0,0,0" s15="0,0,0" s16="0,0,0" s17="0,0,0"
+			o1="0" o2="0" o3="0" o4="1" o5="12" o6="0"
+			up="3"
+			
+			pt="l" p1="메소 획득량 : +20%" p2="INT : +12%" p3="메소 획득량 : +20%"
+			et="u" e1="INT : +5%" e2="INT : +4%" e3="마력 : +11"
+			
+			st="" ss="" sa=""
+			
+			tip1=""
+			tip2=""
+			tip3=""
+			tip4=""
+			tip5=""
+			tip6=""
+			onclick="iselect(this);"></div>
+		</div>
+		<div id="slot" class="slot17">
+			<div id="inslot" class="legendary"></div>
+			<div id="inventory" class="red" style="background: url('img/itemlist/제네시스 ESP리미터.png') no-repeat;width: 38px;height: 38px;margin-top: 2px;margin-left: 2px;"
+			
+			
+			iname="제네시스 ESP 리미터"
+			c_trade="고유 아이템, 교환 불가, 고유장착 아이템"
+			
+			nost = "0"
+			
+			rlev="200" rstr="0" rluk="0" rdex="0" rint="600"
+			j0="0" j1="0" j2="1" j3="0" j4="0" j5="0"
+			sp="0" sjt="키네시스"
+			
+			tw="1" t1="ESP 리미터" t2="6"
+			
+			s1="0,0,0" s2="0,0,0" s3="150,0,149" s4="150,0,117"
+			s5="0,0,255" s6="0,0,255" s7="0,0,0" s8="0,0,0"
+			s9="237,0,151" s10="400,250,358" s11="0,0,0" s12="0,0,0" s13="0,0,0"
+			s14="30,12,0" s15="20,0,0" s16="0,6,0" s17="0,6,0"
+			o1="-1" o2="-1" o3="-1" o4="0" o5="22" o6="1"
+			up="8"
+			
+			pt="l" p1="보스 몬스터 공격 시 데미지 : +40%" p2="보스 몬스터 공격 시 데미지 : +40%" p3="마력 : +9%"
+			et="l" e1="마력 : +12%" e2="마력 : +9%" e3="마력 : +12%"
+			
+			st="위대한 진 힐라" ss="영혼 찢기" sa="크리티컬 확률 : +12%"
+			
+			tip1="3개 이상 착용하고 있는 모든 세트 아이템에 포함되는 럭키 아이템!"
+			tip2="장착 시 1회에 한해 매력 200의 경험치를 얻으실 수 있습니다."
+			tip3=""
+			tip4=""
+			tip5=""
+			tip6=""
+			onclick="iselect(this);"></div>
+		</div>
+		<div id="slot" class="slot18">
+			<div id="inslot" class="legendary"></div>
+			<div id="inventory" class="red" style="background: url('img/itemlist/이글아이 던위치 로브.png') no-repeat;width: 38px;height: 38px;margin-top: 6px;margin-left: 5px;"
+			
+			iname="이글아이 던위치로브"
+			c_trade="교환 불가"
+			
+			nost = "0"
+			
+			rlev="150" rstr="0" rluk="0" rdex="0" rint="480"
+			j0="0" j1="0" j2="1" j3="0" j4="0" j5="0"
+			sp="0" sjt=""
+			
+			tw="0" t1="상의" t2=""
+			
+			s1="0,0,76" s2="0,24,76" s3="30,104,173" s4="30,24,117"
+			s5="0,0,215" s6="0,0,0" s7="10,0,0" s8="10,0,0"
+			s9="0,0,148" s10="2,0,148" s11="120,0,486" s12="0,0,0" s13="0,0,0"
+			s14="0,0,0" s15="5,0,0" s16="0,0,0" s17="0,6,0"
+			o1="0" o2="0" o3="10" o4="1" o5="25" o6="0"
+			up="8"
+			
+			pt="l" p1="INT : +12%" p2="INT : +12%" p3="INT : +9%"
+			et="l" e1="캐릭터 기준 10레벨 당 INT : +2" e2="INT : +5%" e3="올스탯 : +4%"
+			
+			st="" ss="" sa=""
+			
+			tip1="플래티넘 카르마의 가위를 사용하여 1회에 한해 교환할 수 있습니다."
+			tip2=""
+			tip3=""
+			tip4=""
+			tip5=""
+			tip6=""
+			onclick="iselect(this);"></div>
+		</div>
+		<div id="slot" class="slot19">
+			<div id="inslot" class="legendary"></div>
+			<div id="inventory" class="red" style="background: url('img/itemlist/아케인셰이드 메이지숄더.png') no-repeat;width: 38px;height: 38px;margin-top: 5px;margin-left: 4px;"
+			iname="아케인셰이드 메이지 숄더"
+			c_trade="교환 불가"
+			
+			nost = "0"
+			
+			rlev="200" rstr="0" rluk="0" rdex="0" rint="0"
+			j0="0" j1="0" j2="1" j3="0" j4="0" j5="0"
+			sp="0" sjt=""
+			
+			tw="0" t1="견장" t2=""
+			
+			s1="35,0,0" s2="35,0,0" s3="35,0,36" s4="35,0,28"
+			s5="300,0,255" s6="300,0,255" s7="0,0,0" s8="0,0,0"
+			s9="20,0,0" s10="20,0,0" s11="0,0,181" s12="0,0,0" s13="0,0,0"
+			s14="0,0,0" s15="0,0,0" s16="0,0,0" s17="0,0,0"
+			o1="0" o2="0" o3="10" o4="1" o5="11" o6="0"
+			up="2"
+			
+			pt="e" p1="INT : +6%" p2="INT : +12" p3="INT : +3%"
+			et="r" e1="마력 : +10" e2="마력 : +3" e3="INT : +6"
+			
+			st="" ss="" sa=""
+			
+			tip1="플래티넘 카르마의 가위를 사용하여 1회에 한해 교환할 수 있습니다."
+			tip2=""
+			tip3=""
+			tip4=""
+			tip5=""
+			tip6=""
+			onclick="iselect(this);"></div>
+		</div>
+		<div id="slot" class="slot20">
+			<div id="inslot" class="legendary"></div>
+			<div id="inventory" class="red" style="background: url('img/itemlist/체스피스 디 퀸.png') no-repeat;width: 38px;height: 38px;margin-top: 3px;margin-left: 2px;"
+			iname="체스피스 디 퀸"
+			c_trade="교환 불가"
+			
+			nost = "1"
+			
+			rlev="100" rstr="0" rluk="0" rdex="0" rint="0"
+			j0="0" j1="0" j2="1" j3="0" j4="0" j5="0"
+			sp="0" sjt=""
+			
+			tw="0" t1="체스" t2=""
+			
+			s1="0,0,0" s2="0,0,0" s3="5,0,0" s4="5,0,0"
+			s5="0,0,0" s6="0,0,0" s7="0,0,0" s8="0,0,0"
+			s9="0,0,0" s10="10,0,0" s11="0,0,0" s12="0,0,0" s13="0,0,0"
+			s14="0,0,0" s15="0,0,0" s16="0,0,0" s17="0,0,0"
+			o1="0" o2="-1" o3="0" o4="0" o5="0" o6="0"
+			up="0"
+			
+			pt="l" p1="ARC : +330" p2="ARC : +330" p3="마력 : +12%"
+			et="l" e1="캐릭터 기준 10레벨 당 마력 : +2" e2="마력 : +9%" e3="마력 : +12%"
+			
+			st="" ss="" sa=""
+			
+			tip1="data:-221; incDMG:+15%; if(ch==619) incCRI:+20%"
+			tip2=""
+			tip3=""
+			tip4=""
+			tip5=""
+			tip6=""
+			onclick="iselect(this);"></div>
+		</div>
+		<div id="slot" class="slot21">
+			<div id="inslot" class="none"></div>
+			<div id="inventory" class="red" style="background: url('img/itemlist/청의 마도서.png') no-repeat;width: 38px;height: 38px;;margin-top: 0px;margin-left: 1px;"></div>
+		</div>
+		<div id="slot" class="slot22">
+			<div id="inslot" class="legendary"></div>
+			<div id="inventory" class="red" style="background: url('img/itemlist/몽환의 벨트.png') no-repeat;width: 38px;height: 38px;margin-top: 3px;margin-left: 2px;"></div>
+		</div>
+		<div id="slot" class="slot23">
+			<div id="inslot" class="legendary"></div>
+			<div id="inventory" class="red" style="background: url('img/itemlist/트릭스터 던위치 팬츠.png') no-repeat;width: 38px;height: 38px;margin-top: 5px;margin-left: 6px;"></div>
+		</div>
+		<div id="slot" class="slot24">
+			<div id="inslot" class="legendary"></div>
+			<div id="inventory" class="red" style="background: url('img/itemlist/아케인셰이드 메이지글러브.png') no-repeat;width: 38px;height: 38px;margin-top: 5px;margin-left: 5px;"></div>
+		</div>
+		<div id="slot" class="slot25">
+			<div id="inslot" class="legendary"></div>
+			<div id="inventory" class="red" style="background: url('img/itemlist/아케인셰이드 메이지케이프.png') no-repeat;width: 38px;height: 38px;margin-top: 4px;margin-left: 2px;"></div>
+		</div>
+		<div id="slot" class="slot26">
+			<!-- none -->
+		</div>
+		<div id="slot" class="slot27">
+			<!-- none -->
+		</div>
+		<div id="slot" class="slot28">
+			<div id="inslot" class="legendary"></div>
+			<div id="inventory" class="red" style="background: url('img/itemlist/아케인셰이드 메이지슈즈.png') no-repeat;width: 38px;height: 38px;margin-top: 4px;margin-left: 6px;"></div>
+		</div>
+		<div id="slot" class="slot29">
+			<div id="inslot" class="none"></div>
+			<div id="inventory" class="" style="background: url('img/itemlist/루시드 로이드.png') no-repeat;width: 38px;height: 38px;margin-top: 1px;margin-left: 5px;"></div>
+		</div>
+		<div id="slot" class="slot30">
+			<div id="inslot" class="legendary"></div>
+			<div id="inventory" class="red" style="background: url('img/itemlist/리퀴드 메탈 하트.png') no-repeat;width: 38px;height: 38px;margin-top: 3px;margin-left: 5px;"></div>
+		</div>
+	</div>
+</div>
+
+<div id="iteminfoUI" style="position: absolute; left: 16px;">
+	<div id="itembackground">
+		<div id="itembacktopleft"></div>
+	</div>
+		<div id="itembacktop"></div>
+	<div id="itemnormalinfo">
+		<div id="starforce">
+			<div id="star1" class="s10">
+				<div id="stary" name="star"></div>
+				<div id="stary" name="star"></div>
+				<div id="stary" name="star"></div>
+				<div id="stary" name="star"></div>
+				<div id="stary" name="star"></div>
+				
+				<div name="starlv">
+					<div id="starblank"></div>
+					
+					<div id="stary" name="star"></div>
+					<div id="stary" name="star"></div>
+					<div id="stary" name="star"></div>
+				</div>				
+				<div name="starlv">
+					<div id="stary" name="star"></div>
+					<div id="stary" name="star"></div>
+				</div>				
+				<div name="starlv">
+					<div id="starblank"></div>
+					
+					<div id="stary" name="star"></div>
+					<div id="stary" name="star"></div>
+					<div id="stary" name="star"></div>
+					<div id="stary" name="star"></div>
+					<div id="stary" name="star"></div>
+				</div>				
+			</div>
+			
+			<div id="star2">
+				<div id="stary" name="star"></div>
+				<div id="stary" name="star"></div>
+				<div id="stary" name="star"></div>
+				<div id="stary" name="star"></div>
+				<div id="stary" name="star"></div>
+				
+				<div name="starlv">
+					<div id="starblank"></div>
+					
+					<div id="stary" name="star"></div>
+					<div id="stary" name="star"></div>
+					<div id="star" name="star"></div>
+					<div id="star" name="star"></div>
+					<div id="star" name="star"></div>
+				</div>				
+			</div>
+		</div>
+		<div id="itemsoulname"></div>
+		<div id="itemname" class="lv6"></div>
+		<div id="itemclass">(레전드리 아이템)</div>
+		<div id="itemtrade"></div>
+	</div>
+	<div id="dotline"></div>
+	<div name="iteminfotype" class="iteminfo s">
+		<div id="iconlayout">
+			<div id="itemicon">
+				<div id="itemclassb">
+					<div id="itemcode">
+						<div name="iicon" 
+						style=" background:url() no-repeat; 
+								margin-top: 23px; 
+								margin-left: 23px; 
+								width: 34px; 
+								height: 34px; 
+								image-rendering: pixelated;
+								transform: scale(2);"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="itemaddpowertext">공격력 증가량</div>
+		<div id="addpower">
+			<div id="add1"></div>
+			<div id="add6"></div>
+			<div id="add3"></div>
+			<div id="add1"></div>
+			<div id="add1"></div>
+			<div id="add0"></div>
+			<div id="add9"></div>
+			<div id="add1"></div>
+			<div id="addp"></div>
+		</div>
+		<div id="reqlevel">
+			<div id="reqlevelimg">
+				<div id="reqnum" name="rlev" class="y2"></div>
+				<div id="reqnum" name="rlev" class="y0"></div>
+				<div id="reqnum" name="rlev" class="y0"></div>
+			</div>
+		</div>
+		<div id="reqstats">
+			<div id="reqStat" name="reqStat" class="STR d">
+				<div id="reqnum" name="rstr" class="d0"></div>
+				<div id="reqnum" name="rstr" class="d0"></div>
+				<div id="reqnum" name="rstr" class="d0"></div>
+			</div>
+			<div id="reqStat" name="reqStat" class="LUK d">
+				<div id="reqnum" name="rluk" class="d0"></div>
+				<div id="reqnum" name="rluk" class="d0"></div>
+				<div id="reqnum" name="rluk" class="d0"></div>
+			</div>
+			<div id="reqStat" name="reqStat" class="DEX d">
+				<div id="reqnum" name="rdex" class="d0"></div>
+				<div id="reqnum" name="rdex" class="d0"></div>
+				<div id="reqnum" name="rdex" class="d0"></div>
+			</div>
+			<div id="reqStat" name="reqStat" class="INT e">
+				<div id="reqnum" name="rint" class="e6"></div>
+				<div id="reqnum" name="rint" class="e0"></div>
+				<div id="reqnum" name="rint" class="e0"></div>
+			</div>
+		</div>
+		<div id="itemabil">
+			<div id="iabil" class="ag">
+				
+			</div>
+			<div id="iabil" class="ba">
+				
+			</div>
+			<div id="iabil" class="gb">
+				
+			</div>
+		</div>
+		<div id="itemjob" class="job">
+			<div id="Jobbg" class="jg">
+				<div id="ijob" name="juse" class="j00"></div>
+				<div id="ijob" name="juse" class="j10"></div>
+				<div id="ijob" name="juse" class="j21"></div>
+				<div id="ijob" name="juse" class="j30"></div>
+				<div id="ijob" name="juse" class="j40"></div>
+				<div id="ijob" name="juse" class="j50"></div>
+				<div id="ijobspecial" name="jsname"></div>
+			</div>
+		</div>
+	</div>
+	<div id="dotline"></div>
+	<div id="itemoption">
+		<div id="itemoptiondetail" name="item_basic"></div>
+		<div id="itemoptiondetail" name="item_basic"></div>
+		
+		<div id="itemoptiondetail" name="item_basic"></div>
+		<div id="itemoptiondetail" name="item_basic"></div>
+		<div id="itemoptiondetail" name="item_basic"></div>
+		<div id="itemoptiondetail" name="item_basic"></div>
+		<div id="itemoptiondetail" name="item_basic"></div>
+		<div id="itemoptiondetail" name="item_basic"></div>
+		<div id="itemoptiondetail" name="item_basic"></div>
+		<div id="itemoptiondetail" name="item_basic"></div>
+		<div id="itemoptiondetail" name="item_basic"></div>
+		<div id="itemoptiondetail" name="item_basic"></div>
+		<div id="itemoptiondetail" name="item_basic"></div>
+		<div id="itemoptiondetail" name="item_basic"></div>
+		<div id="itemoptiondetail" name="item_basic"></div>
+		<div id="itemoptiondetail" name="item_basic"></div>
+		<div id="itemoptiondetail" name="item_basic"></div>
+		<div id="itemoptiondetail" name="item_basic"></div>
+		<div id="itemoptiondetail" name="item_basic"></div>
+		
+		<div id="itemoptiondetail" name="item_basic"></div>
+		<div id="itemoptiondetail" name="item_basic"></div>
+		<div id="itemoptiondetail" name="item_basic" style="color: #ffc080;"></div>
+		<div id="itemoptiondetail" name="item_basic"></div>
+		<div id="itemoptiondetail" name="item_basic"></div>
+		<div id="itemoptiondetail" name="item_basic"></div>
+	</div>
+	<div name="cell">
+		<div id="dotline"></div>
+		<div id="potential" style="width:254px;">
+			<div id="potendata" style="margin-left:0px;"><div id="potenlevel" class="l" name="poten_level">잠재옵션</div></div>
+			<div id="potendata" name="poten_basic"></div>
+			<div id="potendata" name="poten_basic"></div>
+			<div id="potendata" name="poten_basic"></div>
+		</div>
+	</div>
+	<div name="cell">
+		<div id="dotline"></div>
+		<div id="potential" style="width:254px;">
+			<div id="potendata" style="margin-left:0px;"><div id="potenlevel" class="l" name="poten_level">에디셔널 잠재옵션</div></div>
+			<div id="potendata" name="poten_basic">+</div>
+			<div id="potendata" name="poten_basic">+</div>
+			<div id="potendata" name="poten_basic">+</div>
+		</div>
+	</div>
+	<div name="cell" style="display:none;">
+		<div id="dotline"></div>
+		<div id="itemsoul">
+			<div id="isoul" class="name">위대한 진 힐라의 소울 적용</div>
+			<div id="isoul" class="charge">소울 충전량 1000/1000 (공:+20,마:+20)</div>
+			<div id="isoul" class="pasv">크리티컬 확률 : +12%</div>
+			<div id="isoul" class="skill">소울 충전 시 '영혼 찢기' 사용 가능</div>
+		</div>
+	</div>
+	<div name="cell" style="display:none;">
+		<div id="dotline"></div>
+		<div id="itemdefault">
+			<div name="tipline">
+				<div id="dft" class="tip" name="tips"></div>
+			</div>
+			<div name="tipline">
+				<div id="dft" class="blank"></div>
+				<div id="dft" class="tip" name="tips"></div>
+			</div>
+			<div name="tipline">
+				<div id="dft" class="blank"></div>
+				<div id="dft" class="tip" name="tips"></div>
+			</div>
+			<div name="tipline">
+				<div id="dft" class="blank"></div>
+				<div id="dft" class="tip" name="tips"></div>
+			</div>
+			<div name="tipline">
+				<div id="dft" class="blank"></div>
+				<div id="dft" class="tip" name="tips"></div>
+			</div>
+			<div name="tipline">
+				<div id="dft" class="blank"></div>
+				<div id="dft" class="tip" name="tips"></div>
+			</div>
+		</div>
+	</div>
+	<div id="itembackbottom"></div>
+</div>
+</body>
